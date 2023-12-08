@@ -53,13 +53,13 @@ $(document).ready(function () {
     animation()
     // Smooth animation scrolling
     count = 0;
-    wordsArray = ["Beta", "Gamma", "Delta", "Alpha"];
+    wordsArray = ["Devoloper","Java Devoloper","Software Engineer","Graphis designer"];
     setInterval(function () {
       count++;
       $(".changecontent").fadeOut(400, function () {
         $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
       });
-    }, 2000);
+    }, 3000);
 
 
 });
